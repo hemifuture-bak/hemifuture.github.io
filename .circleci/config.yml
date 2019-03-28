@@ -2,10 +2,6 @@ version: 2.0
 
 jobs:
     build:
-        filters:
-            branches:
-                only:
-                    - source
         docker:
             - image: felicianotech/docker-hugo:latest
         working_directory: ~/hemifuture.github.io
@@ -32,3 +28,12 @@ jobs:
                     git add .
                     git commit --allow-empty -m "Trigger deployment"
                     git push -q git@github.com:hemifuture/hemifuture.github.io.git master
+
+workflows:
+  version: 2
+  main:
+    jobs:
+    - build:
+        filters:
+          branches:
+            only: source
