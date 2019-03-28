@@ -1,5 +1,4 @@
 title = "Hemifuture"
-subtitle = "Magic Design for Good"
 keywords = ""
 copyright = ""
 
@@ -20,6 +19,7 @@ paginate = 5
     url = "https://github.com/dyzdyz010"
 
 [params]
+  subtitle = "Magic Design for Good"
   readMore = "Read more"
   menuMore = "Show more"
   readOtherPosts = "Read other posts"
