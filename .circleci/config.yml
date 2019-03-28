@@ -18,6 +18,7 @@ jobs:
                 working_directory: ~/
                 command: git clone -b master git@github.com:hemifuture/hemifuture.github.io.git public
             - run:
+                name: Generate site
                 working_directory: ~/hemifuture.github.io
                 command: HUGO_ENV=production hugo -d ~/public
             - deploy:
