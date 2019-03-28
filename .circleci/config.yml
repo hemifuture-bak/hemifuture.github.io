@@ -2,9 +2,10 @@ version: 2.0
 
 jobs:
     build:
-        branches:
-          only:
-            - source
+        filters:
+            branches:
+                only:
+                    - source
         docker:
             - image: felicianotech/docker-hugo:latest
         working_directory: ~/hemifuture.github.io
