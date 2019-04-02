@@ -22,14 +22,15 @@
     </item>
     
     <item>
-      <title>Hello</title>
+      <title>关于 Hemifuture</title>
       <link>/post/hello/</link>
       <pubDate>Thu, 28 Mar 2019 10:58:46 +0800</pubDate>
       
       <guid>/post/hello/</guid>
-      <description>$$ h_\theta(x) = WX + B $$
-天地玄黄，宇宙洪荒
-You&amp;rsquo;re live! Nice. We&amp;rsquo;ve put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &amp;lt;your blog URL&amp;gt;/ghost/. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!</description>
+      <description>项目意义 当前，各类艺术创作中对“魔法”的定义众说纷纭，其仅仅为各自的故事剧情而服务，无法在考虑真实因素的情况下与各自的世界自恰。
+Hemifuture 的目的，是基于现实世界创造一种全新的魔法定义，使得其能够被允许在现实世界条件中存在，并逻辑自恰。
+如果本项目进展顺利，未来将能够为各类魔法幻想类艺术作品提供真实感基础，允许作者们在对自己的世界进行设定时能够使用现成的自恰魔法设定而无需重复制造轮子。
+目标  定义魔法原理，以量子层面为微观最小单位，对魔法产生机理进行详细定义。 制定魔法结构规范，以代码为形式基础对魔法产生过程进行逻辑上的定义。 对目前已知的咒语、法阵等魔法运作机制进行统一，使之能够融洽共存在同一体系下。  从幻想作品中寻求真实感有什么不对吗！！！！</description>
     </item>
     
   </channel>
