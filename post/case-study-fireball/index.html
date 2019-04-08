@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>魔法案例分析——火球 :: Hemifuture — Magic Design for Good</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="魔法过程 在施法者前方生成一个火球，给予其速度，使其向目标飞去。
+要素详述 施法距离 魔法指令以波的形式发出，具有指向性，且其强度随距离增加而衰减。
+火球生成动作 该动作指令以空间坐标为基点，以该点为中心生成火球。
+火球产生 为简化过程，此处的火球性质以一般燃烧为基础。
+ 在小范围内制造无重力场 生成可燃物，在本例中生成碳球 在碳球表面某点/某区域/整个表面提高分子内能以升高温度，以此点燃碳球  火球移动 包裹火球所占空间生成力场，赋予火球初速度，使其能够向目标飞去，原理类似于电磁弹射。
+补充说明 反重力场 在燃烧物生成阶段，反重力场用来保持生成物质的位置，除非生成位置在地面上或有支撑的位置上面。
+在火球飞行阶段，反重力场可以用来保证飞行轨迹不受重力加速度影响。但维持场的存在需要消耗魔力，因此在实际的运用过程中需考虑如此做的魔力成本和回报。
+弹射力场 用于为火球提供初速度。同样地，维持场的存在需消耗魔力，因此把握场的生成与消去时机有助于控制魔力的消耗。"/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/post/case-study-fireball/" />
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+
+<link rel="shortcut icon" href="/img/favicon/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="魔法案例分析——火球 :: Hemifuture — Magic Design for Good" />
+<meta name="twitter:description" content="魔法过程 在施法者前方生成一个火球，给予其速度，使其向目标飞去。
+要素详述 施法距离 魔法指令以波的形式发出，具有指向性，且其强度随距离增加而衰减。
+火球生成动作 该动作指令以空间坐标为基点，以该点为中心生成火球。
+火球产生 为简化过程，此处的火球性质以一般燃烧为基础。
+ 在小范围内制造无重力场 生成可燃物，在本例中生成碳球 在碳球表面某点/某区域/整个表面提高分子内能以升高温度，以此点燃碳球  火球移动 包裹火球所占空间生成力场，赋予火球初速度，使其能够向目标飞去，原理类似于电磁弹射。
+补充说明 反重力场 在燃烧物生成阶段，反重力场用来保持生成物质的位置，除非生成位置在地面上或有支撑的位置上面。
+在火球飞行阶段，反重力场可以用来保证飞行轨迹不受重力加速度影响。但维持场的存在需要消耗魔力，因此在实际的运用过程中需考虑如此做的魔力成本和回报。
+弹射力场 用于为火球提供初速度。同样地，维持场的存在需消耗魔力，因此把握场的生成与消去时机有助于控制魔力的消耗。" />
+<meta name="twitter:site" content="/" />
+<meta name="twitter:creator" content="dyzdyz010" />
+<meta name="twitter:image" content="">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="魔法案例分析——火球 :: Hemifuture — Magic Design for Good">
+<meta property="og:description" content="魔法过程 在施法者前方生成一个火球，给予其速度，使其向目标飞去。
+要素详述 施法距离 魔法指令以波的形式发出，具有指向性，且其强度随距离增加而衰减。
+火球生成动作 该动作指令以空间坐标为基点，以该点为中心生成火球。
+火球产生 为简化过程，此处的火球性质以一般燃烧为基础。
+ 在小范围内制造无重力场 生成可燃物，在本例中生成碳球 在碳球表面某点/某区域/整个表面提高分子内能以升高温度，以此点燃碳球  火球移动 包裹火球所占空间生成力场，赋予火球初速度，使其能够向目标飞去，原理类似于电磁弹射。
+补充说明 反重力场 在燃烧物生成阶段，反重力场用来保持生成物质的位置，除非生成位置在地面上或有支撑的位置上面。
+在火球飞行阶段，反重力场可以用来保证飞行轨迹不受重力加速度影响。但维持场的存在需要消耗魔力，因此在实际的运用过程中需考虑如此做的魔力成本和回报。
+弹射力场 用于为火球提供初速度。同样地，维持场的存在需消耗魔力，因此把握场的生成与消去时机有助于控制魔力的消耗。" />
+<meta property="og:url" content="/post/case-study-fireball/" />
+<meta property="og:site_name" content="魔法案例分析——火球" />
+<meta property="og:image" content="">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2019-04-08 19:57:23 &#43;0800 &#43;0800" />
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Hemifuture
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="https://github.com/dyzdyz010">Github</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="https://github.com/dyzdyz010">Github</a></li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+  <div class="post">
+    <h1 class="post-title"><a href="/post/case-study-fireball/">魔法案例分析——火球</a></h1>
+    <div class="post-meta">
+      <span class="post-date">
+        2019-04-08
+      </span>
+      <span class="post-author">:: dyzdyz010</span>
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="/tags/case-study/">case-study</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    <div class="post-content">
+      
+
+<h1 id="魔法过程">魔法过程</h1>
+
+<p>在施法者前方生成一个火球，给予其速度，使其向目标飞去。</p>
+
+<h1 id="要素详述">要素详述</h1>
+
+<h2 id="施法距离">施法距离</h2>
+
+<p>魔法指令以波的形式发出，具有指向性，且其强度随距离增加而衰减。</p>
+
+<h2 id="火球生成动作">火球生成动作</h2>
+
+<p>该动作指令以空间坐标为基点，以该点为中心生成火球。</p>
+
+<h2 id="火球产生">火球产生</h2>
+
+<p>为简化过程，此处的火球性质以一般燃烧为基础。</p>
+
+<ol>
+<li>在小范围内制造无重力场</li>
+<li>生成可燃物，在本例中生成碳球</li>
+<li>在碳球表面某点/某区域/整个表面提高分子内能以升高温度，以此点燃碳球</li>
+</ol>
+
+<h2 id="火球移动">火球移动</h2>
+
+<p>包裹火球所占空间生成力场，赋予火球初速度，使其能够向目标飞去，原理类似于<code>电磁弹射</code>。</p>
+
+<h2 id="补充说明">补充说明</h2>
+
+<h3 id="反重力场">反重力场</h3>
+
+<p>在燃烧物生成阶段，反重力场用来保持生成物质的位置，除非生成位置在地面上或有支撑的位置上面。</p>
+
+<p>在火球飞行阶段，反重力场可以用来保证飞行轨迹不受重力加速度影响。但维持场的存在需要消耗魔力，因此在实际的运用过程中需考虑如此做的魔力成本和回报。</p>
+
+<h3 id="弹射力场">弹射力场</h3>
+
+<p>用于为火球提供初速度。同样地，维持场的存在需消耗魔力，因此把握场的生成与消去时机有助于控制魔力的消耗。</p>
+
+    </div>
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Read other posts</span>
+          <hr />
+        </div>
+        <div class="pagination__buttons">
+          
+          
+            <span class="button next">
+              <a href="/post/hello/">
+                <span class="button__text">关于 Hemifuture</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css" integrity="sha384-dbVIfZGuN1Yq7/1Ocstc1lUEm+AT+/rCkibIcC/OmWo5f0EA48Vf8CytHzGrSwbQ" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js" integrity="sha384-2BKqo+exmr9su6dir+qCw08N2ZKRucY4PrGQPPWU1A7FtlCGjmEGFqXCv5nyM5Ij" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+  </div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2019 Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

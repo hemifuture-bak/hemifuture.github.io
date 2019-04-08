@@ -6,10 +6,26 @@
     <description>Recent content on Hemifuture</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Mar 2019 17:23:06 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 19:57:23 +0800</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>魔法案例分析——火球</title>
+      <link>/post/case-study-fireball/</link>
+      <pubDate>Mon, 08 Apr 2019 19:57:23 +0800</pubDate>
+      
+      <guid>/post/case-study-fireball/</guid>
+      <description>魔法过程 在施法者前方生成一个火球，给予其速度，使其向目标飞去。
+要素详述 施法距离 魔法指令以波的形式发出，具有指向性，且其强度随距离增加而衰减。
+火球生成动作 该动作指令以空间坐标为基点，以该点为中心生成火球。
+火球产生 为简化过程，此处的火球性质以一般燃烧为基础。
+ 在小范围内制造无重力场 生成可燃物，在本例中生成碳球 在碳球表面某点/某区域/整个表面提高分子内能以升高温度，以此点燃碳球  火球移动 包裹火球所占空间生成力场，赋予火球初速度，使其能够向目标飞去，原理类似于电磁弹射。
+补充说明 反重力场 在燃烧物生成阶段，反重力场用来保持生成物质的位置，除非生成位置在地面上或有支撑的位置上面。
+在火球飞行阶段，反重力场可以用来保证飞行轨迹不受重力加速度影响。但维持场的存在需要消耗魔力，因此在实际的运用过程中需考虑如此做的魔力成本和回报。
+弹射力场 用于为火球提供初速度。同样地，维持场的存在需消耗魔力，因此把握场的生成与消去时机有助于控制魔力的消耗。</description>
+    </item>
     
     <item>
       <title>About</title>

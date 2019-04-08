@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Hemifuture</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on Hemifuture</description>
+    <title>Case Study on Hemifuture</title>
+    <link>/tags/case-study/</link>
+    <description>Recent content in Case Study on Hemifuture</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Apr 2019 19:57:23 +0800</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/case-study/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -25,18 +25,6 @@
 补充说明 反重力场 在燃烧物生成阶段，反重力场用来保持生成物质的位置，除非生成位置在地面上或有支撑的位置上面。
 在火球飞行阶段，反重力场可以用来保证飞行轨迹不受重力加速度影响。但维持场的存在需要消耗魔力，因此在实际的运用过程中需考虑如此做的魔力成本和回报。
 弹射力场 用于为火球提供初速度。同样地，维持场的存在需消耗魔力，因此把握场的生成与消去时机有助于控制魔力的消耗。</description>
-    </item>
-    
-    <item>
-      <title>关于 Hemifuture</title>
-      <link>/post/hello/</link>
-      <pubDate>Thu, 28 Mar 2019 10:58:46 +0800</pubDate>
-      
-      <guid>/post/hello/</guid>
-      <description>项目意义 当前，各类艺术创作中对“魔法”的定义众说纷纭，其仅仅为各自的故事剧情而服务，无法在考虑真实因素的情况下与各自的世界自恰。
-Hemifuture 的目的，是基于现实世界创造一种全新的魔法定义，使得其能够被允许在现实世界条件中存在，并逻辑自恰。
-如果本项目进展顺利，未来将能够为各类魔法幻想类艺术作品提供真实感基础，允许作者们在对自己的世界进行设定时能够使用现成的自恰魔法设定而无需重复制造轮子。
-目标  定义魔法原理，以量子层面为微观最小单位，对魔法产生机理进行详细定义。 制定魔法结构规范，以代码为形式基础对魔法产生过程进行逻辑上的定义。 对目前已知的咒语、法阵等魔法运作机制进行统一，使之能够融洽共存在同一体系下。  从幻想作品中寻求真实感有什么不对吗！！！！</description>
     </item>
     
   </channel>
